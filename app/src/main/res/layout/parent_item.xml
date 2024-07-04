@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/rounded_button1"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/superhero"/>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="Name "
+            android:textColor="#373636"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="Details "
+            android:textColor="#373636"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

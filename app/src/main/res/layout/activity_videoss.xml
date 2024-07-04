@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/backIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_ios_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
+
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="364dp"
+        android:layout_height="64dp"
+        android:background="@drawable/rounded_button1"
+        android:backgroundTint="#D3D7F8"
+        android:text="Introduction"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+
+        android:drawableRight="@drawable/ic_expand_arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="364dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#D3D7F8"
+        android:text="Eye Contact Skill"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/rounded_button1"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:drawableRight="@drawable/ic_expand_arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="364dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#D3D7F8"
+        android:text="Pointing Skill"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:drawableRight="@drawable/ic_expand_arrow"
+        android:background="@drawable/rounded_button1"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="364dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#D3D7F8"
+        android:text="Imitation Skill"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:drawableRight="@drawable/ic_expand_arrow"
+        android:background="@drawable/rounded_button1"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="364dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#D3D7F8"
+        android:text="Joint attention Skill"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:drawableRight="@drawable/ic_expand_arrow"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_button1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="341dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_2" />
+
+
+</android.support.constraint.ConstraintLayout>

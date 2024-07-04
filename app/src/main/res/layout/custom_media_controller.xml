@@ -1,0 +1,8 @@
+<!-- res/layout/custom_media_controller.xml -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Add your custom layout for media controller here -->
+
+</FrameLayout>

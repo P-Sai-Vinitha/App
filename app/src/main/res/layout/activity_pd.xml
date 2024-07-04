@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dark_lavender"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_ios_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="600dp"
+        android:background="@drawable/lavender"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595">
+
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:paddingStart="10dp"
+            app:srcCompat="@drawable/superhero" />
+
+        <TextView
+            android:id="@+id/parentDetailsTextView"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:text="PARENT DETAILS"
+            android:paddingTop="70dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/parentNameTextView"
+            android:layout_width="150dp"
+            android:layout_height="300dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="Parent Name:"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:paddingTop="150dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/parentNameText"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:text="John"
+            android:paddingLeft="20dp"
+            android:paddingTop="150dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/parentAgeTextView"
+            android:layout_width="150dp"
+            android:layout_height="300dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="Parent Age:"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:paddingTop="200dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/parentageText"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:text="34"
+            android:paddingLeft="20dp"
+            android:paddingTop="200dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/RegisteredonTextView"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="Registered on(date):"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:paddingTop="250dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/registeredonText"
+            android:layout_width="150dp"
+            android:layout_height="300dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:text="27-07-2023"
+            android:paddingLeft="20dp"
+            android:paddingTop="250dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/childnameTextView"
+            android:layout_width="200dp"
+            android:layout_height="350dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="Child name:"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:paddingTop="300dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/childnameText"
+            android:layout_width="200dp"
+            android:layout_height="350dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:text="Hitesh"
+            android:paddingLeft="20dp"
+            android:paddingTop="300dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/childageTextView"
+            android:layout_width="200dp"
+            android:layout_height="400dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="Child age:"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:paddingTop="350dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/childageText"
+            android:layout_width="200dp"
+            android:layout_height="400dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:text="8 years"
+            android:paddingLeft="20dp"
+            android:paddingTop="350dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/childdiagnosisTextView"
+            android:layout_width="200dp"
+            android:layout_height="450dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="Child diagnosis:"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:paddingTop="400dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/childdiagnosisText"
+            android:layout_width="180dp"
+            android:layout_height="450dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:text="Diagnosis name"
+            android:paddingLeft="20dp"
+            android:paddingTop="400dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/patientnoTextView"
+            android:layout_width="200dp"
+            android:layout_height="500dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="Patient no:"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:paddingTop="450dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/patientnoText"
+            android:layout_width="200dp"
+            android:layout_height="500dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:text="04"
+            android:paddingLeft="20dp"
+            android:paddingTop="450dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>
